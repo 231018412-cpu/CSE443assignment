@@ -5,6 +5,7 @@ This project focuses on building a Convolutional Neural Network (CNN) model to c
 1.Pneumonia.
 2.Normal.
 The dataset contains 5,863 JPEG images, organized into:
+       
        Archive/
             │
             ├── train/
