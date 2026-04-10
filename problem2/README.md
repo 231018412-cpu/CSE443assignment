@@ -6,7 +6,7 @@ A banking institution aims to predict whether a customer will subscribe to a **t
 * `yes` → Customer subscribed
 * `no` → Customer did not subscribe
 
-Dataset Description
+Dataset Description:
 The dataset used is the **Bank Marketing Dataset**, which contains information collected from past marketing campaigns.
 
 Features include:
