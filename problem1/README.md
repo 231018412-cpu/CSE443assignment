@@ -51,8 +51,11 @@ Techniques used:
 3. Model Architecture:
 
 We used Transfer Learning with EfficientNetB4:
+
 >Pretrained on ImageNet
+
 >Base layers initially frozen
+
 >Custom classification head added:
 
 EfficientNetB4 (Base Model)
