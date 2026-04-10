@@ -26,52 +26,44 @@ To build a **Logistic Regression model** that predicts whether a new customer wi
 # Methodology:
 1.Data Loading:
 
-        >Imported dataset (`bank-full.csv`).
-        
-        >Inspected structure, data types, and missing values.
+        > Imported dataset (`bank-full.csv`).
+        > Inspected structure, data types, and missing values.
         
  2.Data Preprocessing:
  Converted categorical variables using:
  
              > **Label Encoding / One-Hot Encoding**
-             
              > Handled missing or unknown values (if present)
-             
-             >Feature scaling applied (if needed for numerical stability)
+             > Feature scaling applied (if needed for numerical stability)
 
 3. Exploratory Data Analysis (EDA):
    
-       >Checked class distribution of target variable
-   
+       > Checked class distribution of target variable
        > Analyzed relationships between features and subscription
-   
        > Identified important predictors such as:
-
-            >call duration
-   
-            >previous campaign outcome
-   
-            >contact type
+            > call duration
+            > previous campaign outcome
+            > contact type
 
  4.Train-Test Split:
 > Split dataset into:
 
       > **Training set (80%)**
-      >**Testing set (20%)**
+      > **Testing set (20%)**
 
 5.Model Building:
 >Used **Logistic Regression** because:
 
-     >Suitable for binary classification
-     >Interpretable coefficients
-     >Efficient on structured/tabular data
+     > Suitable for binary classification
+     > Interpretable coefficients
+     > Efficient on structured/tabular data
 
 6.Model Evaluation:
 >Evaluated model using:
 
      > Accuracy Score
      > Confusion Matrix
-     >Precision, Recall, F1-score
+     > Precision, Recall, F1-score
 
 #Results & Findings:
 
@@ -115,25 +107,25 @@ To build a **Logistic Regression model** that predicts whether a new customer wi
 
 >Limitations:
 
-     >Dataset is **imbalanced**
-     >Logistic Regression assumes **linear relationships**
-     >Sensitive to irrelevant or highly correlated features
+     > Dataset is **imbalanced**
+     > Logistic Regression assumes **linear relationships**
+     > Sensitive to irrelevant or highly correlated features
 
 >Future Improvements:
 
     > Apply **SMOTE / class balancing techniques**
-    >Try advanced models:
+    > Try advanced models:
        -> Random Forest
-       ->XGBoost
-    >Perform hyperparameter tuning.
-    >Feature selection for better performance.
+       -> XGBoost
+    > Perform hyperparameter tuning.
+    > Feature selection for better performance.
     
 >Technologies Used:
 
-    >Python.
-    >Pandas & NumPy
-    >Scikit-learn
-    >Matplotlib / Seaborn
+    > Python.
+    > Pandas & NumPy
+    > Scikit-learn
+    > Matplotlib / Seaborn
 
 > Project Structure
 
