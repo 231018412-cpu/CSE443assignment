@@ -61,22 +61,22 @@ We used Transfer Learning with EfficientNetB4:
 
 >Custom classification head added:
 
-EfficientNetB4 (Base Model)
+     EfficientNetB4 (Base Model)
 
         ↓
-Global Average Pooling
+    Global Average Pooling
 
         ↓
-Batch Normalization
+    Batch Normalization
 
         ↓
-Dense (256, ReLU)
+    Dense (256, ReLU)
 
         ↓
-Dropout (0.5)
+    Dropout (0.5)
 
         ↓
-Dense (1, Sigmoid)
+    Dense (1, Sigmoid)
 
 
 4. Loss Function:
