@@ -1,4 +1,4 @@
-Pneumonia Detection Using CNN
+##Pneumonia Detection Using CNN
 
 #Introduction:
 This project focuses on building a Convolutional Neural Network (CNN) model to classify chest X-ray images into two categories:
