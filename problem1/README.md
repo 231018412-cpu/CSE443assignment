@@ -1,6 +1,6 @@
-##Pneumonia Detection Using CNN
+# Pneumonia Detection Using CNN
 
-#Introduction:
+# Introduction:
 This project focuses on building a Convolutional Neural Network (CNN) model to classify chest X-ray images into two categories:
 1.Pneumonia.
 2.Normal.
@@ -11,13 +11,13 @@ The dataset contains 5,863 JPEG images, organized into:
             ├── val/
             └── test/
 
-#Objective:
+# Objective:
 To develop a deep learning model that can:
 >Automatically classify chest X-ray images
 >Assist in early detection of pneumonia
 >Achieve high accuracy (≈89%+)
 
-#Methodology:
+# Methodology:
 1. Data Preprocessing:
    
 >Images resized to (380 × 380)
@@ -71,7 +71,7 @@ Dense (1, Sigmoid)
 >Last layers of EfficientNet were unfrozen
 >Model retrained for better feature learning
 
-#Results & Findings:
+# Results & Findings:
 
 | Metric              | Value       |
 | ------------------- | ----------- |
@@ -91,7 +91,7 @@ Dense (1, Sigmoid)
 >Data augmentation improved generalization.
 >Fine-tuning increased final accuracy.
 
-#Conclusion:
+# Conclusion:
 This project successfully demonstrates that:
 >CNN with transfer learning can effectively classify medical images.
 >The model achieves high accuracy (~90%).
