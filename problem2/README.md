@@ -25,12 +25,14 @@ To build a **Logistic Regression model** that predicts whether a new customer wi
 
 # Methodology:
 1.Data Loading:
+
         >Imported dataset (`bank-full.csv`).
         
         >Inspected structure, data types, and missing values.
         
  2.Data Preprocessing:
  Converted categorical variables using:
+ 
              > **Label Encoding / One-Hot Encoding**
              
              > Handled missing or unknown values (if present)
@@ -38,12 +40,17 @@ To build a **Logistic Regression model** that predicts whether a new customer wi
              >Feature scaling applied (if needed for numerical stability)
 
 3. Exploratory Data Analysis (EDA):
+   
        >Checked class distribution of target variable
+   
        > Analyzed relationships between features and subscription
+   
        > Identified important predictors such as:
 
             >call duration
+   
             >previous campaign outcome
+   
             >contact type
 
  4.Train-Test Split:
