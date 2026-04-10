@@ -25,13 +25,17 @@ To develop a deep learning model that can:
 1. Data Preprocessing:
    
 >Images resized to (380 × 380)
+
 >Pixel normalization (rescale = 1/255)
+
 >Dataset loaded using ->ImageDataGenerator
 
 2. Handling Imbalanced Dataset:
 
 The dataset is imbalanced (Pneumonia > Normal).
+
 Techniques used:
+
 >Class Weights
 >Data Augmentation:
 >Rotation
