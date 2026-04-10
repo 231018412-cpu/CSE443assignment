@@ -12,8 +12,11 @@ The dataset used is the **Bank Marketing Dataset**, which contains information c
 Features include:
 
 >**Demographics**: age, job, marital status, education.
+
 > **Financial info**: balance, housing loan, personal loan.
+
 > **Campaign-related**: contact type, duration, previous outcomes.
+
 >**Target variable**:
   >`y` → subscription to term deposit (yes/no)
 
